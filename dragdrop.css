@@ -1,0 +1,56 @@
+#cajasoltar {
+    float: left;
+    width: 250px;
+    height: 320px;
+    margin: 30px;
+    border: 1px solid #999999;
+}
+
+#cajaimagenes {
+    float: left;
+    width: 250px;
+    height: 320px;
+    margin: 30px;
+    border: 1px solid #999999;
+}
+
+#cajaimagenes>img {
+    float: left;
+    padding: 5px;
+}
+
+#navegador_mis ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#navegador_mis li {
+    display: inline;
+    text-align: center;
+    margin: 0px 3px 0px 0px;
+    font-size: 20px;
+}
+
+#navegador_mis li a {
+    padding: 2px 5px 2px 7px;
+    color: #ffffff;
+    border: 1px lightblue;
+    text-decoration: none;
+}
+
+#navegador_mis li a:hover {
+    color: #f10a0a;
+}
+
+#navegador_mis {
+    font-weight: 200;
+    color: aliceblue;
+    background-image: url(fondos/fondo.jpg);
+    margin: 0px 410px;
+    overflow: hidden;
+    padding: 5px;
+    overflow: auto;
+    width: 500px;
+    height: auto;
+    border-radius: 600px;
+}
